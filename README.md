@@ -23,7 +23,9 @@ To view the Gym Website, simply navigate to the deployed website here. Alternati
 sh
 
 git clone git@github.com:thedistroyer17/gymweb.git
+
 cd gymweb
+
 open index.html
 
 Contributing
