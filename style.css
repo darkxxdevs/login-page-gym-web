@@ -1,0 +1,98 @@
+.left {
+  display: inline-block;
+  top: 0px;
+  margin: 2px -34px;
+  position: absolute;
+  right: 1250px;
+  top: 0px;
+}
+.mid {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  width: 44%;
+  margin: 6px auto;
+}
+.right {
+  margin: 13px -27px;
+  position: absolute;
+  left: 1179px;
+  top: 0px;
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 34px;
+  font-size: 15px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: blue;
+  text-decoration: none;
+  padding-left: 34px;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+img {
+  height: 60px;
+  width: 86px;
+  filter: invert();
+}
+.btn {
+  font-family: "Secular One", sans-serif;
+  color: white;
+  background-color: black;
+  padding: 3px 7px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+#btn1 {
+  margin-right: 3px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  background-color: rgb(54, 49, 49);
+}
+.arctex {
+  font-size: 10px;
+  padding-left: 30px;
+}
+.container {
+  border: 2px solid white;
+  margin: 113px 41px;
+  padding: 82px 122px;
+  border-radius: 63px;
+  width: 42%;
+  backdrop-filter: blur(5px);
+}
+.btn3 {
+  font-family: "Secular One", sans-serif;
+  color: white;
+  background-color: rgb(58, 57, 57);
+  padding: 3px 7px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.form1 input {
+  margin: 17px;
+  text-align: center;
+  display: block;
+  width: 87%;
+  border: 4px solid black;
+  padding: 13px;
+  border-radius: 44px;
+  font-size: 24px;
+  font-family: "Secular One", sans-serif;
+}
+.container h1 {
+  text-align: center;
+}

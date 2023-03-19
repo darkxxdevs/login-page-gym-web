@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gym web</title>
+  </head>
+  <!-- linking the style sheet  -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- linking the font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <style>
+    /* css reset  */
+    body {
+      font-family: 'Secular One', sans-serif;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url(/last.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+  </style>
+  <body>
+    <!-- satart of header  -->
+    <header>
+      <!-- left box for logo   -->
+      <div class="left">
+        <img  class="logo" src="/image.png" alt="image">
+        <h2 class="arctex">Arctex</h2>
+      </div>
+      <!-- mid box for navigation bar  -->
+      <div class="mid">
+        <ul class="navbar">
+          <li>
+            <a href="#home" class="active"">HOME</a>
+          </li>
+          <li>
+            <a href="#about us"> ABOUT US </a>
+          </li>
+          <li>
+            <a href="#fitnesscenter">FINTNESS CENTER</a>
+          </li>
+          <li>
+            <a href="#social">CONTACT US </a>
+          </li>
+        </ul>
+      </div>
+      <!-- right box for buttons  -->
+      <div class="right">
+        <button class="btn" id="btn1">Contact </button>
+      
+        <button class="btn"  id="btn2">Email us </button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of  your area !!</h1>
+      <form action="backend.php" class="form">
+        <div class="form1">
+          <input type="text" name=" "  placeholder="__Enter your name__">
+        </div>
+        <div class="form1">
+          <input type="text" name=" "  placeholder="__gender__">
+        </div>
+        <div class="form1">
+          <input type="text" name=" "  placeholder="_Age_">
+        </div>
+        <div class="form1">
+          <input type="text" name=" "  placeholder="_Locality_">
+        </div>
+        <button class="btn3">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
