@@ -22,8 +22,8 @@ To view the Gym Website, simply navigate to the deployed website here. Alternati
 
 sh
 
-git clone https://github.com/your-username/gym-website.git
-cd gym-website
+git clone git@github.com:thedistroyer17/gymweb.git
+cd gymweb
 open index.html
 
 Contributing
@@ -38,7 +38,7 @@ If you'd like to contribute to this project, please follow these steps:
 
 Credits
 
-The Gym Website project was created by [Your Name]. If you have any questions or comments, please contact me at [Your Email Address].
+The Gym Website project was created by [Your Name]. If you have any questions or comments, please contact me at arpit2003y@gmail.com
 License
 
 This project is licensed under the MIT License. Feel free to use and modify this code for your own projects.
